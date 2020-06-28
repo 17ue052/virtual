@@ -6,7 +6,6 @@ library(testthat)
 library(roxygen2)
 
 library(dplyr)
-library(rvest)
 library(magrittr)
 library(stringr)
 library(stringi)
