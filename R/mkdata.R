@@ -8,10 +8,6 @@
 #'
 #'@export
 mkdata <- function(n,p){
-  read_csv("住所.csv") -> jusyo
-  read.csv("女名前.csv") -> onna_namae
-  read.csv("男名前.csv") -> otoko_namae
-  read.csv("名字データ.csv") -> myoji
 
   sample_n(tbl = myoji, size = n) %>%
     mutate(num = row_number()) -> randomsei

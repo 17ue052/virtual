@@ -2,3 +2,4 @@
 ^\.Rproj\.user$
 ^README\.Rmd$
 sagyouba.R
+include data.R

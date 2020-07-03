@@ -40,5 +40,7 @@
 # read.csv("女名前.csv") -> onna_namae
 # read.csv("男名前.csv") -> otoko_namae
 # read.csv("名字データ.csv") -> myoji
-#
-# jusyo %>% View
+# #
+# # jusyo %>% View
+
+#devtools::install()
